@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Visibility Example</title>
+    <style>
+      
+        #useless-paragraph {
+            width: 50%; 
+            margin: 20px auto; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            background-color: #f9f9f9; 
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> headline </h1>
+    <br />
+    <p id="useless-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aperiam iure nobis temporibus, corrupti voluptate aliquam ea cumque beatae aspernatur
+         id laudantium velit expedita, explicabo consequuntur cupiditate quibusdam eos qui saepe.</p>
+    <br />
+    <button onclick="toggleVisibility()">Toggle Button</button>
+    
+    <script>
+        function toggleVisibility() {
+            
+            const paragraph = document.getElementById('useless-paragraph');
+
+            
+            if (paragraph.style.display === 'none') {
+                paragraph.style.display = 'block';
+            } else {
+               
+                paragraph.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

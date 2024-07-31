@@ -1,0 +1,31 @@
+/* App.css */
+
+.app-container {
+  width: 80%; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.app-title {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+
